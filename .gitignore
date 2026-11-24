@@ -1,0 +1,25 @@
+# secrets — never commit
+.env
+.env.local
+*.env
+!.env.example
+
+# deps / build
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# runtime data
+backend/data/
+*.log
+
+# packaging
+*.evenapp
+*.tgz
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,24 @@
+{
+  "package_id": "com.scamguard.g2",
+  "edition": "202601",
+  "name": "Scam Guard",
+  "version": "1.0.0",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Fetches Telegram risk flags from the Scam Guard risk service.",
+      "whitelist": [
+        "http://localhost:8787",
+        "http://127.0.0.1:8787",
+        "https://scamguard.example.com"
+      ]
+    },
+    {
+      "name": "g2-microphone",
+      "desc": "Lets you say 'why', 'safe' or 'mute' instead of tapping."
+    }
+  ],
+  "supported_languages": ["en"]
+}

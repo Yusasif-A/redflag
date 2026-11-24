@@ -1,0 +1,26 @@
+{
+  "name": "g2-scam-guard-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Even Hub app: shows Telegram scam risk flags on the Even Realities G2.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "sim": "evenhub-simulator http://127.0.0.1:5180 --automation-port 9898",
+    "qr": "evenhub qr --url",
+    "pack": "npm run build && evenhub pack app.json dist -o g2-scam-guard.ehpk",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "0.2.0",
+    "@evenrealities/evenhub-simulator": "0.9.5",
+    "typescript": "5.7.3",
+    "vite": "6.4.6"
+  }
+}

@@ -1,0 +1,110 @@
+/*
+ * Styling for the browser preview only.
+ *
+ * On the glasses the Even Hub SDK draws the lens and none of this applies —
+ * the G2 has one fixed LVGL font with no size, weight or alignment control.
+ * The preview deliberately mimics the real constraints (576x288, monochrome
+ * green, monospace) so a layout that overflows here overflows there too.
+ */
+
+:root {
+  --lens-w: 576px;
+  --lens-h: 288px;
+  --lens-bg: #04140a;
+  --lens-fg: #4aff9b;
+  --page-bg: #0b0f0d;
+  --page-fg: #d8e6de;
+  --muted: #7b8c84;
+  --accent: #1f3b2c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 24px 16px;
+  background: var(--page-bg);
+  color: var(--page-fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.preview { width: 100%; max-width: 640px; }
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+header strong { font-size: 1.05rem; letter-spacing: 0.01em; }
+
+.badge {
+  font-size: 0.72rem;
+  color: var(--muted);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+
+/* The lens: fixed 576x288, scaled down on narrow screens. */
+.lens {
+  width: var(--lens-w);
+  height: var(--lens-h);
+  max-width: 100%;
+  background: var(--lens-bg);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  overflow: hidden;
+}
+
+.lens pre {
+  margin: 0;
+  color: var(--lens-fg);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 19px;
+  line-height: 1.42;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-shadow: 0 0 6px rgba(74, 255, 155, 0.28);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  background: #10201a;
+  color: var(--page-fg);
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  padding: 8px 13px;
+  font-size: 0.86rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover { background: #172e24; }
+button:active { transform: translateY(1px); }
+button:focus-visible { outline: 2px solid var(--lens-fg); outline-offset: 2px; }
+
+#menu-controls button { font-size: 0.8rem; opacity: 0.9; }
+
+.status {
+  margin: 12px 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+@media (max-width: 620px) {
+  .lens { height: auto; min-height: 240px; }
+  .lens pre { font-size: 15px; }
+}
