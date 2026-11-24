@@ -219,7 +219,7 @@ const WELCOME = (username) =>
     '/demo — send yourself a sample scam to try',
     '/help — this message',
     '',
-    '_I flag patterns, not people. A flag is not proof of a scam, and a clean score is not a guarantee. I never ask for your codes, phrase or funds._',
+    '_I will never ask you for your codes, recovery phrase or funds._',
   ].join('\n');
 
 const DEMO_SAMPLES = [

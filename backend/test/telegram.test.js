@@ -88,8 +88,9 @@ test('/start explains how to use the bot', async () => {
   const reply = lastReply();
   assert.match(reply, /Scam Guard/);
   assert.match(reply, /[Ff]orward/);
-  // It must set expectations honestly up front.
-  assert.match(reply, /not proof|not a verdict|flag patterns, not people/i);
+  // It must tell the user it will never ask for the things scammers ask for,
+  // so an impersonator of this bot is easier to spot.
+  assert.match(reply, /never ask you for your codes/i);
 });
 
 test('/check scores inline text', async () => {
