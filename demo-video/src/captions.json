@@ -1,0 +1,222 @@
+{
+ "h0": [
+  [
+   0.0,
+   1.83,
+   "This is G2 Scam Guard."
+  ],
+  [
+   1.83,
+   4.83,
+   "Risky Telegram messages, flagged on your Even Realities"
+  ],
+  [
+   4.83,
+   8.64,
+   "glasses, with one reason, and one tap to act."
+  ]
+ ],
+ "p1": [
+  [
+   0.0,
+   2.19,
+   "Telegram is where scams land."
+  ],
+  [
+   2.19,
+   3.75,
+   "A fake support account."
+  ],
+  [
+   3.75,
+   5.8,
+   "An urgent “verify now”."
+  ],
+  [
+   5.8,
+   8.41,
+   "A lookalike link. And the money is gone."
+  ]
+ ],
+ "p2": [
+  [
+   0.0,
+   5.45,
+   "Americans reported losing $12.5 billion to fraud in 2024."
+  ],
+  [
+   5.45,
+   10.74,
+   "Crypto impersonation scams grew about 1,400% last year."
+  ],
+  [
+   10.74,
+   14.16,
+   "On a phone, people act before they check."
+  ]
+ ],
+ "s1": [
+  [
+   0.0,
+   2.93,
+   "Scam Guard puts one short warning on your lenses, only"
+  ],
+  [
+   2.93,
+   5.07,
+   "when a message is risky."
+  ],
+  [
+   5.07,
+   9.9,
+   "Forward it to the bot, the rules score it, and you act"
+  ],
+  [
+   9.9,
+   11.19,
+   "from your glasses."
+  ]
+ ],
+ "sc1": [
+  [
+   0.0,
+   1.31,
+   "Every point has a name."
+  ],
+  [
+   1.31,
+   3.27,
+   "Fake support. A threat."
+  ],
+  [
+   3.27,
+   6.92,
+   "A lookalike link. Together, they cross the high-risk line."
+  ]
+ ],
+ "d1": [
+  [
+   0.0,
+   1.29,
+   "Here's the real thing."
+  ],
+  [
+   1.29,
+   3.99,
+   "I paste a fake Binance support message."
+  ],
+  [
+   3.99,
+   7.94,
+   "The bot replies: high risk, with every signal it found."
+  ]
+ ],
+ "d2": [
+  [
+   0.0,
+   1.9,
+   "Seconds later, it's on the lens."
+  ],
+  [
+   1.9,
+   3.58,
+   "One line, one reason."
+  ]
+ ],
+ "d3": [
+  [
+   0.0,
+   2.4,
+   "Tap to see why it was flagged."
+  ],
+  [
+   2.4,
+   3.99,
+   "Tap again to go back."
+  ]
+ ],
+ "d4": [
+  [
+   0.0,
+   1.92,
+   "The menu has the actions:"
+  ],
+  [
+   1.92,
+   4.74,
+   "mark safe, mute, or a safe reply."
+  ]
+ ],
+ "d5": [
+  [
+   0.0,
+   4.21,
+   "Mute asks first, so a stray tap can't silence a chat."
+  ],
+  [
+   4.21,
+   6.04,
+   "Confirm, and it's muted."
+  ]
+ ],
+ "d6": [
+  [
+   0.0,
+   1.6,
+   "An ordinary message?"
+  ],
+  [
+   1.6,
+   3.99,
+   "Low risk, and the lens stays quiet."
+  ]
+ ],
+ "d7": [
+  [
+   0.0,
+   4.62,
+   "Or go hands-free. Hold, say “why”, and release."
+  ],
+  [
+   4.62,
+   7.85,
+   "The speech is transcribed, and the Why screen opens."
+  ]
+ ],
+ "b1": [
+  [
+   0.0,
+   4.42,
+   "Under the hood: a Telegram bot and a rule engine in Node,"
+  ],
+  [
+   4.42,
+   9.3,
+   "ElevenLabs Scribe for voice, and an Even Hub app built for"
+  ],
+  [
+   9.3,
+   10.59,
+   "the G2 display."
+  ]
+ ],
+ "n1": [
+  [
+   0.0,
+   3.58,
+   "Next: automatic scanning, image and QR checks, and replies"
+  ],
+  [
+   3.58,
+   5.11,
+   "in the original chat."
+  ]
+ ],
+ "o1": [
+  [
+   0.0,
+   3.34,
+   "G2 Scam Guard. Only risky chats reach your lenses."
+  ]
+ ]
+}

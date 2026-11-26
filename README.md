@@ -4,6 +4,8 @@
 
 Built for the Even Realities hackathon · Track 01 · Messaging & News (Telegram) · also claiming **Best Telegram integration**.
 
+**Demo video (2:26):** https://youtu.be/REwn-1iR8ME
+
 Telegram is where a lot of people get scammed: fake support accounts, "send crypto to unlock", advance-fee job offers, phishing links. On a phone those sit in a noisy inbox and people act before they check. Scam Guard does not put Telegram on your glasses. It puts **one short warning** there, only when a message is actually risky, and gives you one tap to deal with it.
 
 ```
@@ -347,6 +349,7 @@ In forward mode the bot has no relationship with the original sender, so a "safe
 - **Track:** 01 · Messaging & News (Telegram)
 - **Special prize:** Best Telegram integration
 - **Read and write:** reads forwarded Telegram messages, writes replies back into Telegram
+- **Demo video:** https://youtu.be/REwn-1iR8ME
 - **Demo:** 30 seconds is enough — forward a scam, it appears on the lens, tap Why, mute it
 - **Built during the build window.** Nothing in this repo predates it, apart from the PRD in `docs/`.
 

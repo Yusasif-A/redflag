@@ -1,0 +1,7 @@
+node_modules/
+public/clips/
+public/img/
+public/vo/
+out/
+work/old_vo/
+__pycache__/
